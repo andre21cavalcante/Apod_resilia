@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/38094b95235473.5e92ecc4409a8.gif");
+    background-size: 100%;
+}
+
+main{
+    height: 80vh;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+/*header*/
+.cabeca{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+/*data*/
+
+.data{
+    display: flex;
+    justify-content: center;
+}
+
+/* footer*/
+
+.futer{
+    background-color: black;
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+ 
+}
