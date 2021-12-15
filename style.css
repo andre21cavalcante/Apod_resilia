@@ -10,41 +10,109 @@ body{
     background-size: 100%;
 }
 
-main{
-    height: 80vh;
+ul{
+    color: white;
+    margin: 0px;
+    padding: 0px;
 }
 
 h2{
+    font-family: 'Bakbak One', cursive;
+    font-family: 'Inconsolata', monospace;
     display: flex;
     justify-content: center;
     color: white;
+}
+
+button{
+    font-family: var(--font-action);
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    background: #03001e; 
+    background: -webkit-linear-gradient(to right, #ec38bc, #7303c0, #03001e);  
+    background: linear-gradient(to right, #ec38bc, #7303c0, #03001e); 
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 1s;
+    font-family: 'Bakbak One', cursive;
+    font-family: 'Inconsolata', monospace;
+}
+
+button:hover, button:hover {
+    background: #AA076B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #61045F, #AA076B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #61045F, #AA076B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    color: black;
+    font-weight: bold;
 }
 
 /*header*/
 .cabeca{
+    font-family: 'Bakbak One', cursive;
+    font-family: 'Inconsolata', monospace;
     padding: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: black;
+    background-color: rgb(0,0,0,0.5);
     color: white;
 }
 
-/*data*/
+#primeirobotao{
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
 
+}
+
+/*data*/
 .data{
     display: flex;
     justify-content: center;
 }
 
+
+/*MAIN*/
+.mainprincipal{
+    height: 70vh;
+    align-items: center;
+    font-family: 'Bakbak One', cursive;
+    font-family: 'Inconsolata', monospace;
+    margin: 2%;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgb(0,0,0,0.5);
+    color: white;
+}
+
+
+.imagem{
+    width: 20%;
+    height: 20%;
+   
+}
+
+#imagem{
+    display: flex;
+    justify-content: center;
+    
+}
+
 /* footer*/
 
 .futer{
-    background-color: black;
+    font-family: 'Bakbak One', cursive;
+    font-family: 'Inconsolata', monospace;
+    background-color: rgb(0,0,0,0.5);
     padding: 30px;
     width: 100%;
     display: flex;
     justify-content: center;
     color: white;
- 
+    
 }
